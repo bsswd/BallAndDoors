@@ -15,10 +15,6 @@ public class PlayerController : MonoBehaviour
     Vector3 _moveDirectionX;
     Vector3 _moveDirectionY;
 
-
-
-
-
     void Start()
     {
         rigidbodyPlayer = GetComponent<Rigidbody>();
@@ -26,14 +22,8 @@ public class PlayerController : MonoBehaviour
     
     void Update()
     {   
-        /*
-        var _direction = new Vector3(Input.GetAxis("Horizontal"),0, Input.GetAxis("Vertical")).normalized;
-        rigidbodyPlayer.AddForce(_direction*_acceleration);
-        */
-
         PlayerInput();
         PlayerMovement();
-
     }
 
     public void PlayerInput()
