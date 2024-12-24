@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -555,6 +555,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472361762}
     m_Modifications:
+    - target: {fileID: 2226458058829234226, guid: 48efda2b59f523e4c942822158d8b6ee, type: 3}
+      propertyPath: m_Drag
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3732200588381785036, guid: 48efda2b59f523e4c942822158d8b6ee, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.64
@@ -2349,6 +2353,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5001390923750567513, guid: 62aaa7a435376cb47a0eb46dcc6930a1, type: 3}
+      propertyPath: m_Drag
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6634902585960624873, guid: 62aaa7a435376cb47a0eb46dcc6930a1, type: 3}
       propertyPath: m_Name
       value: Player
@@ -2399,7 +2407,7 @@ PrefabInstance:
       objectReference: {fileID: 2094887329}
     - target: {fileID: 8275150458589546563, guid: 62aaa7a435376cb47a0eb46dcc6930a1, type: 3}
       propertyPath: _acceleration
-      value: 3
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2419,6 +2427,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 472361762}
     m_Modifications:
+    - target: {fileID: 2226458058829234226, guid: 48efda2b59f523e4c942822158d8b6ee, type: 3}
+      propertyPath: m_Drag
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3732200588381785036, guid: 48efda2b59f523e4c942822158d8b6ee, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
