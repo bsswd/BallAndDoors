@@ -1,3 +1,5 @@
+// Restars game
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 

@@ -1,3 +1,5 @@
+// Visualizes press/unpress button and simulate door opens
+
 using UnityEngine;
 
 public class Button : MonoBehaviour

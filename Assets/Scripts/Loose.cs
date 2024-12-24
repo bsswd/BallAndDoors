@@ -1,3 +1,5 @@
+// When boxes are closed to wall - game over
+
 using UnityEngine;
 
 public class Loose : MonoBehaviour

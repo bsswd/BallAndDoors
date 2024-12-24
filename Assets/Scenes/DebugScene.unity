@@ -644,8 +644,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 240, y: -240}
-  m_SizeDelta: {x: 360, y: 300}
+  m_AnchoredPosition: {x: 245.59753, y: -152.81348}
+  m_SizeDelta: {x: 371.1951, y: 144.8286}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &561414033
 MonoBehaviour:
@@ -1220,6 +1220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _winMessage: {fileID: 114786723}
+  _looseMessage: {fileID: 0}
   _restartButton: {fileID: 944516209}
 --- !u!1 &1088105511
 GameObject:
@@ -2021,8 +2022,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: 8}
-  m_SizeDelta: {x: 330, y: 240}
+  m_AnchoredPosition: {x: -2, y: -0.00094606}
+  m_SizeDelta: {x: 330, y: 144.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1962312146
 MonoBehaviour:
@@ -2046,9 +2047,9 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_FontSize: 24
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
@@ -2138,6 +2139,11 @@ BoxCollider:
 --- !u!135 &2094887324 stripped
 SphereCollider:
   m_CorrespondingSourceObject: {fileID: 2814525087569517508, guid: 62aaa7a435376cb47a0eb46dcc6930a1, type: 3}
+  m_PrefabInstance: {fileID: 4260260245548886935}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2094887329 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7728067021058221729, guid: 62aaa7a435376cb47a0eb46dcc6930a1, type: 3}
   m_PrefabInstance: {fileID: 4260260245548886935}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2122102854
@@ -2388,8 +2394,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8275150458589546563, guid: 62aaa7a435376cb47a0eb46dcc6930a1, type: 3}
+      propertyPath: orientation
+      value: 
+      objectReference: {fileID: 2094887329}
+    - target: {fileID: 8275150458589546563, guid: 62aaa7a435376cb47a0eb46dcc6930a1, type: 3}
       propertyPath: _acceleration
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

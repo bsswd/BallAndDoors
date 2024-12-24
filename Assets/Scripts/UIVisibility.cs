@@ -1,3 +1,5 @@
+// Hide UI elements
+
 using UnityEngine;
 
 public class UIVisibility : MonoBehaviour
@@ -8,7 +10,6 @@ public class UIVisibility : MonoBehaviour
 
     void Start()
     {
-        // Hide UI elements
         _looseMessage.SetActive(false);
         _winMessage.SetActive(false);
         _restartButton.SetActive(false);  
